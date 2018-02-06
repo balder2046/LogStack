@@ -45,7 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Log\LogInterface.cs" />
+     <Compile Include="Assets\Log\LogSystem.cs" />
      <Compile Include="Assets\LogStack.cs" />
+     <Compile Include="Assets\Test\Test.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
