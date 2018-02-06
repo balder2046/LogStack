@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.IO;
-public class LogInterface : MonoBehaviour {
+public class LogInterface {
 
 	Stream m_logStream;
 	StreamWriter m_streamWriter;

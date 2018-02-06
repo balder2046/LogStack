@@ -14,7 +14,7 @@ public class Test : MonoBehaviour {
 	}
 	public void OnTest(string content)
 	{
-		LogSystem.inst.Log (content);
+		LogSystem.inst.LogWithStack (content);
 	}
 	string testParam = "";
 	string nowString = "";

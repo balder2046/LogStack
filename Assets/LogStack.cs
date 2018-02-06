@@ -6,14 +6,16 @@ public class LogStack : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		PrintCurrentStatck ();
+		
 	}
-	void PrintCurrentStatck()
+	// skip 略过的堆栈数 
+	public static string GetCurrentStatck(int skip)
 	{
 		StackTrace trace = new StackTrace (true);
 		StackFrame[] frames = trace.GetFrames ();
 		StringBuilder builder = new StringBuilder ();
-		for (int i = 0; i < frames.Length; ++i) {
+		// 要把本次函数调用给过滤掉
+		for (int i = skip + 1; i < frames.Length; ++i) {
 			StackFrame frame = frames [i];
 			string typename = frame.GetMethod ().DeclaringType.Namespace;
 			string fullMethodname;
@@ -27,7 +29,8 @@ public class LogStack : MonoBehaviour {
 			// 使用格式 namespace.class:method (fillpath:linenum)\n
 			builder.AppendFormat ("{0} ({1}:{2})\n",fullMethodname,frame.GetFileName(), frame.GetFileLineNumber ());
 		}
-		UnityEngine.Debug.Log (builder.ToString());
+		return builder.ToString ();
+
 	}
 	// Update is called once per frame
 	void Update () {
