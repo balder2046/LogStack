@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 886365476
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5ba8576f988d98209c9d082f2a43e713
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b04a37228feb7b9c312fb0cfbaa19c4
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Assetbundle/res/test.mat
+Dependencies:
+- /Users/Balder/work/Unity/LogStack/Assets/outasset/assetbundle/res/500016.png

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1957237997
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: plot.plot
+      Dependencies: {}
+    Info_1:
+      Name: assetbundle/res/test
+      Dependencies:
+        Dependency_0: assetbundle/res/500016.png
+    Info_2:
+      Name: assetbundle/res/test1
+      Dependencies:
+        Dependency_0: assetbundle/res/500016.png
+    Info_3:
+      Name: assetbundle/res/500016.png
+      Dependencies: {}
+    Info_4:
+      Name: assetbundle/scene
+      Dependencies:
+        Dependency_0: assetbundle/res/test1
