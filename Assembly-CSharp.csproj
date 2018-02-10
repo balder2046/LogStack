@@ -53,6 +53,13 @@
      <Compile Include="Assets\Test\RotateAni.cs" />
      <Compile Include="Assets\Test\Test.cs" />
      <Compile Include="Assets\Test\TestLoad.cs" />
+     <Compile Include="Assets\packages\assetbundle\AssetBundleManager\AssetBundleLoadOperation.cs" />
+     <Compile Include="Assets\packages\assetbundle\AssetBundleManager\AssetBundleManager.cs" />
+     <Compile Include="Assets\packages\assetbundle\AssetBundleManager\Utility.cs" />
+     <Compile Include="Assets\packages\assetbundle\AssetBundleSample\Scripts\LoadAssets.cs" />
+     <Compile Include="Assets\packages\assetbundle\AssetBundleSample\Scripts\LoadScenes.cs" />
+     <Compile Include="Assets\packages\assetbundle\AssetBundleSample\Scripts\LoadTanks.cs" />
+     <Compile Include="Assets\packages\assetbundle\AssetBundleSample\Scripts\LoadVariants.cs" />
      <None Include="Assets\Test\plot.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
